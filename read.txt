@@ -1,0 +1,17 @@
+// webscrapping +automation 
+// language used js 
+// modules used 
+// puppeteer
+// cheerio
+// cron
+// nodemailer
+
+// title : price checker 
+
+// what i did is ?
+
+// using puppetter i  create a instance of the browser then i fetched the price of the selected product using web scrapping
+// every hour program(here i have set it 15 sec just for demostration)will check the price  using  function check price  
+// which checks the price if its is less  than the 
+// desired price then it will sent a email on your id  that the price has dropped and u can buy (for which i used node mailer) automaticaaly 
+// and to run the program automatically for the time decided by us i used cron job .
